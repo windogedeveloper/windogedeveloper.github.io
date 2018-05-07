@@ -19,9 +19,9 @@ What are you're guys' thoughts
           * brendon*
   * no its true
     * check they're twitter
-    * no they havent said anything
-    * they have
-    * where post link
+     * no they havent said anything
+       * they have
+        * where post link
     * The folly of this entire enterprise is based on the concept that they are going to come ba...
       * tl;dr
        * your mean
