@@ -5,9 +5,9 @@ permalink: /links/
 ---
 15. [Burger King Foot Lettuce][link1]
 4. [Do you want to see heaven early?][dEsPaCiTo]
-3.[Do you have friends?][link3]
-2.[Mike Pence Official Website][link4]
-1.[Thank you, Kanye! Very cool!][link5]
+3. [Do you have friends?][link3]
+2. [Mike Pence Official Website][link4]
+1. [Thank you, Kanye! Very cool!][link5]
 
 [link1]: https://mashable.com/2012/07/19/4chan-burger-king-lettuce/#lHqSHNC63gqo
 [dEsPaCiTo]: https://www.reddit.com/r/despacito/
