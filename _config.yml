@@ -16,7 +16,7 @@
 title: Windoge Answers Forum
 email: parth.kasmalkar@warriorlife.net
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a thread for the discussion of Carl Azuz
+  This is a website for the discussion of Carl Azuz
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://windogedeveloper.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: JeffreyLeZhang2
