@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "wd/VIVALAFRANCE"
-date:   2018-05-07 14:26:30 -0700
+date:   2018-05-15 14:36:12 -0700
 categories: uncategorized
-author: British Actor/Actress
+author: user/britishactoractress
 ---
 When I was in the 7th standard, I enrolled in a beginning programming lesson wherein I gained knowledge in the disciplines of Hypertext Markup Links, Cascading Style Sheets, and Javascript. Through gaining such knowledge, I was able to create [this][site].
 
