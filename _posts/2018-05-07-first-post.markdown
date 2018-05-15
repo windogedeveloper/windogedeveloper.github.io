@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "r/twentyonepilotsfans"
+title:  "wd/twentyonepilotsfans"
 date:   2018-05-07 14:26:30 -0700
 categories: uncategorized
+author: twurntyonepilots
 ---
 ### Ay yo guys I heard that Josh and Tyler are making new music
 What are you're guys' thoughts

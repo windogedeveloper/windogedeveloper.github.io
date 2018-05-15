@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "r/english7honors3b"
+title:  "wd/english7honors3b"
 date:   2018-05-07 14:47:38 -0700
 categories: uncategorized
+author: ANONYMOUS
 ---
 ## Does anybody know the answer to number 3 on the study guide?
 I'm kinda confuzzled by it
