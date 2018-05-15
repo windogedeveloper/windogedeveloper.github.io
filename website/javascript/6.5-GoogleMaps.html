@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>6.5</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var distance = prompt("How many miles will it take you to reach your destination?");
+var speed = prompt("What will be your average speed throughout the trip in miles per hour?");
+var timeInDecimals = Number(distance)/Number(speed);
+var timeUntilTheEnd = Number(distance)%Number(speed);
+var memes = Number(timeUntilTheEnd)/Number(speed);
+var nuhUhUh = Number(memes)*60;
+var minutes = Math.round(nuhUhUh);
+var hours = (Number(distance)- timeUntilTheEnd)/Number(speed);
+var sjdistance = 55;
+var sjspeed = 51;
+var sjtimeInDecimals = Number(sjdistance)/Number(sjspeed);
+var sjtimeUntilTheEnd = Number(sjdistance)%Number(sjspeed);
+var sjmemes = Number(sjtimeUntilTheEnd)/Number(sjspeed);
+var sjnuhUhUh = Number(sjmemes)*60;
+var sjminutes = Math.round(sjnuhUhUh);
+var sjhours = (Number(sjdistance)- sjtimeUntilTheEnd)/Number(sjspeed);
+document.write("The time to reach San Francisco from San Jose with decimals is " + sjtimeInDecimals + " hours." + "<br>");
+document.write("The time to reach San Francisco from San Jose with hours and minutes is " + sjhours + " hours and " + sjminutes + " minutes." + "<br>");
+document.write("The time for you to reach your destination with decimals is " + timeInDecimals + " hours." + "<br>");
+document.write("The time for you to reach your destination with hours and minutes is " + hours + " hours and " + minutes + " minutes." + "<br>");
+</script>
+</body>
+</html>

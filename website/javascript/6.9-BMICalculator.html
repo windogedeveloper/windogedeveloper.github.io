@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>6.9</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var patientweight = prompt("What is your weight? Please specify rounded to the nearest pound.");
+var patientheight = prompt("What is your height? Please specify in inches");
+var morestepsweight = Number(patientweight)*0.45;
+var morestepsheight = (Number(patientheight)*0.025)*(Number(patientheight)*0.025);
+var ifitwasonlythissimple = morestepsweight/morestepsheight;
+var mehwhydoesthishavetobesohard = patientheight%12;
+var height = (patientheight - mehwhydoesthishavetobesohard)/12;
+document.write("Height: " + height + "'" + mehwhydoesthishavetobesohard + "\"" + "<br>");
+document.write("Weight: " + patientweight + "<br>");
+document.write("BMI: " + ifitwasonlythissimple);
+</script>
+</body>
+</html>

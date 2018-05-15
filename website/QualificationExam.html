@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GPA Calculator</title>
+<script type="text/javascript">
+var name = "";
+var class_ = "";
+var grade = "";
+var totalGrade = 0;
+var classnumber = 0;
+var gpa;
+var letter = "";
+var yassssss = true;
+while (yassssss == true) {
+	name = prompt("What is the student's name? Enter 'END' if you would like to finish");
+	while (name != "END") { 
+		document.write("Student name: " + name + "<br>");
+		while (classnumber < 3) {
+			class_ = prompt("Which class?");
+			grade = Number(prompt("What integer grade does the student have in the class? (i.e., A = 4, B = 3, C = 2, D = 1, F = 0"));
+			totalGrade = totalGrade + grade;
+			classnumber++; 
+			if (grade == 4) {
+				letter = "A";
+			}
+			else if (grade == 3) {
+				letter = "B";
+			}
+			else if(grade == 2) {
+				letter = "C"
+			}
+			else if (grade == 1) {
+				letter = "D";
+			}
+			else if (grade == 0) {
+				letter = "F";
+			}
+		document.write("Class: " + class_ + "<br>" + "Grade: " + letter + "<br>" );
+	}
+	gpa = Number(totalGrade/classnumber);
+	document.write("Sum of Grades: " + totalGrade + "<br>");
+	document.write("Average GPA: " + gpa + "<br>");
+	}
+classnumber = 0;
+} 
+</script>
+</head>
+
+<body>
+
+</body>
+</html>

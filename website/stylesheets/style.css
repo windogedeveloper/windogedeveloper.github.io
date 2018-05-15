@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* My UNCREATIVE Palette
+Color 1: #FFFFFF
+Color 2: #0000FF
+Color 3: #FF0000
+*/
+
+	/*  ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		
+		BASIC STRUCTURE
+		
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#wrapper {
+		width: 960px;
+		padding: 5px;
+		margin: 20px auto;
+		
+}
+
+#header {
+		height: 100px;
+	
+}
+
+#sidebar {
+		float: left;
+		width: 300px;
+}
+#content {
+		float: right;
+		width: 600px;
+}
+
+#footer {
+		clear: both;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+	COLORS AND FONTS
+	
+	
+	-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+	a {
+  text-decoration: underline;
+  font-style: normal;
+  color: orange;
+}
+	
+	body {
+			font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+			color: navy;
+			background-color: black;
+		
+		}
+		#footer p {
+			text-align: right;
+		}
+		
+		#header, #sidebar, #content, #footer{
+			background-color: white;
+			margin-bottom: 4px;
+			border: double;
+			border-radius: 10px;
+			border-color: rgba(255,255,255,0.5);
+			padding-left: 5px;
+			padding-right: 7px;
+		}
+		#content {
+			backgroundmd\
+	
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+	RESPONSIVE WIDTH
+	
+	
+	-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+	
+	@media screen and (max-width: 980px) {
+			#wrapper {
+					width: 94%;
+			}
+			#content {
+					width: 65%;
+			}
+			#footer {
+					width: 30%;
+			}
+		
+		}
+	
+		@media screen and (max-width: 700px) {
+				#content, #sidebar {
+					width: auto;
+					float: none;
+	}
+		#header {
+			height: auto;
+		}
+		}
+		@media screen and (max-width: 480px) {
+	}
+	
+	/* Phones */
+	@media only screen
+	and (min-device-width: 320px)
+	and (max-device-width: 568px){
+	}
+	

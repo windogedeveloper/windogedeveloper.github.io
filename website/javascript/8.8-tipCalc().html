@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>8.8</title>
+<script type="text/javascript">
+function tipCalc(bill, tipPercentage, parties) {
+	var realTipPerc = tipPercentage/100;
+	var tip = (bill)*(realTipPerc);
+	var total = tip + bill;
+	var doDaSplitz = total/parties;
+	document.write("Your tip is $" + tip + ". Also, your total is $" + total + ", and each party has to pay $" + doDaSplitz + ".") 
+}
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+var x = Number(prompt("How much money in dollars was yore bill?"));
+var y = Number(prompt("What purcentage of your bill will you pay?"));
+var z = Number(prompt("How many parties will share your bill?"));
+tipCalc(x, y, z);
+</script>
+</body>
+</html>

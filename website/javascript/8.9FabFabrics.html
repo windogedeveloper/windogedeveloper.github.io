@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>8.9</title>
+<script type="text/javascript">
+function fabricCalc() {
+	var i =0;
+	var subt = 0;
+	while(i == 0) {
+		var color = prompt("What color fabric would you like?");
+		var rolls = Number (prompt("How many rolls of " + color + " fabric would you like?"));
+		var price = rolls*20;
+			document.write("For " + rolls + " rolls of " + color + "-colored fabric, it is $" + price + "." + "<br>");
+		subt =  price + subt
+		var foSho = confirm("Would you like to buy more rolls?");
+		
+		if (foSho == true) {
+			i = 0;
+		}	
+		if (foSho == false){
+			i = 1;
+		}
+	}
+	document.write("Your subtotal is $" + subt + ".");
+}
+
+</script>
+</head>
+
+<body>
+<script type ="text/javascript">
+fabricCalc();
+</script>
+</body> 
+</html>

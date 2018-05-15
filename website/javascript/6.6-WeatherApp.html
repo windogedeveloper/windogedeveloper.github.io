@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>6.6-WeatherApp</title>
+</head>
+
+<body>
+<script type="text/javascript">
+	var temperature = prompt("What is the temperature in your area");
+	var whichone = confirm("Is this value in Fahrenheit?");
+	var celtofahr = (temperature*(9/5))+32;
+	var fahrtocel = (temperature-32)*(5/9);
+	var sjweather = 68;
+	var sjmemes = (68-32)*(5/9);
+	if(whichone == true) {
+		document.write("Your temperature in Celsius is " + Number(fahrtocel) + " degrees" + "<br>");
+	}
+	else {
+		document.write("Your temperature in Fahrenheit is " + Number(celtofahr) + " degrees." + "<br>");
+	}
+	document.write("If the temperature in San Jose was 68 degrees Fahrenheit, then it would be " + sjmemes + " degrees Celsius in San Jose.");
+	
+</script>
+<br>
+<img src = "../images/weathermap.gif" alt="San Jose Weather Map" width ="1000px">
+</body>
+</html>

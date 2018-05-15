@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>7.9</title>
+</head>
+
+<body>
+<script type="text/javascript">
+var i = 0;
+while (i !== 1){
+var money = prompt("How much money in US dollars do you have?");
+	var japanesemoney = Number(money) * 112.49;
+	document.write("You have " + japanesemoney + " in Japanesen yen." + "<br>");
+var foSho = confirm("Would you like to input another dollar amount?");
+if (foSho == true) {
+		i = 0;
+}
+if (foSho == false){
+i = 1;
+}
+}
+</script>
+</body>
+</html>

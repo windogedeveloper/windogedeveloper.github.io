@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>7.8</title>
+<script type="text/javascript">
+</script>
+</head>
+
+<body >
+<script type = "text/javascript">
+var time = prompt("What is the hour right now in military time?");
+	//var d = new Date();
+	//var time = d.getHours();
+var array = [
+"11:00 AM",
+"11:30 AM",
+"12:00 PM",
+"12:30 PM",
+"1:00 PM",
+"1:30 PM",
+"2:00 PM"
+]
+var randomTime = Math.floor(Math.random()*array.length);
+if (time >= 6 && time <= 10) {
+	document.write("Continental breakfast is servd in the lobby, if that's your thing." + "<br>");
+}
+if (time >= 11 && time <= 14) {
+	document.write("The restaurant is open, so EAT!");
+	var reservation = confirm("Would you like a resurvation at the restaurant?");
+		if (reservation == true) {
+		document.write("<br>" + "Your reservation will be at " + array[randomTime] + "." + "<br>");
+	}
+}
+if (time >= 17 && time <= 21) {
+	document.write("Now, you can either tek room service or visit teh restaurant." + "<br>");
+}
+if (time >= 22 || time <= 5) {
+	document.write("Sorry, but you will have to wait to get food at the restaurent or go out to get a snek."+ "<br>");
+}
+if(time > 24) {
+	alert("Lol, scammer");
+}
+document.write("You know what, we'll double check your time. The hour is actually " + time + " in military time." + "<br>");
+</script>
+</body>
+</html>

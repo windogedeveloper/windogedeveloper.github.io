@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>8.10</title>
+</head>
+
+<body onLoad="factorial()">
+<script type="text/javascript">
+
+while (true) {
+		var fact = Number(prompt("Give me a number such that you want to find the factorial of that number"));
+	var num = fact;
+if (num == 0 || num == 1){
+	 var ans = 1;
+}
+var ans = 1
+while (num !== 0){
+ans = ans * num;
+num = num - 1;
+}
+
+document.write("The factorial of "+ fact + " is " + ans + "<br>");
+	var foSho = confirm("Would you like to input another number?");
+if (foSho == true) {
+	continue;
+}
+if (foSho == false){
+	break;
+}
+
+}
+
+</script>
+
+
+
+</body>
+</html>
