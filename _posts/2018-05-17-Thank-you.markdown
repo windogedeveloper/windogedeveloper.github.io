@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Thanks"
+date:   2018-05-17 01:54:30 -0700
+categories: uncategorized
+author: HubGit
+---
+
+You are very good at being bad!(This is not me, doge told me too)
