@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Thanks dude"
+title:  "wd/Thanksdude"
 date:   2018-05-07 13:56:49 -0700
 categories: uncategorized
 author: David Bai
